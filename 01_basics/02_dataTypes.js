@@ -14,9 +14,18 @@ let isLoggedIn = true  //boolean
 //boolena => true/false
 //null => standalone value
 //undefined => value not assigned yet
-//symbol =>ubnique
+//symbol =>unique
 
 
 //object
 console.log(typeof undefined);  //undefine
 console.log(typeof null);       //null
+
+
+
+
+
+
+
+
+

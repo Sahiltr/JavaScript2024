@@ -41,3 +41,34 @@ const myFun = function(){
 myFun()
 
 console.log(typeof myFun)
+
+
+//+++++++++++++++++++++++++++++++++++++++++Memory+++++++++++++++++++++++++++++++++++++++++++++++++++
+
+//Stack (Primitive dataype use it)
+//Heap (Non-Primitive)
+
+
+
+let myName = "Sahil"
+let anotherName = myName                //Here we get copy of myName
+anotherName = "Thakur"
+
+console.log(myName)
+console.log(anotherName)
+
+
+
+
+
+let userOne ={
+    email:"user@gmail.com",
+    id:1232,
+    upi:"user@sbi"
+}
+
+let userTwo = userOne                   //Here we got refrence for userOne
+userTwo.email = "user2@gmail.com"
+
+console.log(userOne.email)
+console.log(userTwo.email)
