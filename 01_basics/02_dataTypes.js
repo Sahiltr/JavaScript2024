@@ -1,7 +1,7 @@
 "use strict";   // treat all JS code as newer version
 
 
-alert("hello")  // it wont work, cause we are using nodejs, not browser
+//alert("hello")  // it wont work, cause we are using nodejs, not browser
 
 let name = "sahil"  //string
 let age = 23  // number
@@ -18,4 +18,5 @@ let isLoggedIn = true  //boolean
 
 
 //object
-console.log(typeof age);
+console.log(typeof undefined);  //undefine
+console.log(typeof null);       //null
