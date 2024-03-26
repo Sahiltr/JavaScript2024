@@ -19,7 +19,7 @@ let isLoggedIn = true  //boolean
 
 //object
 console.log(typeof undefined);  //undefine
-console.log(typeof null);       //null
+console.log(typeof null);       //object
 
 
 
