@@ -1,13 +1,12 @@
 //const tinderUser = new Object()         //singleton object
 
-const tinderUser = {}             //non-singleton objects
+const tinderUser = {}                    //non-singleton objects
 
 tinderUser.id = "123abc"
 tinderUser.name = "sahil"
 tinderUser,isLoggedIn = "false"
 
 // console.log(tinderUser)
-
 
 const regularUser = {
     email : "some@gmail.com",
@@ -31,8 +30,6 @@ const obj3 = {5 : "x", 6 : "y"}
 const obj4 = {...obj1, ...obj2, ...obj3}
 
 // console.log(obj4)
-
-
 //whenever values comes form database, they come in form of Array of objects
 
 const users = [
