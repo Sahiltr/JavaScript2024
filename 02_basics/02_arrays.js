@@ -21,7 +21,7 @@ console.log(arr2)
 
 console.log(Array.isArray("hitesh"))
 console.log(Array.from("Hitesh"))
-console.log(Array.from({name:"Sahil"}))          //interesting
+console.log(Array.from({name:"Sahil"}))          //interesting  //cause js is unable to convert it to array
 
 
 let score1 = 100
