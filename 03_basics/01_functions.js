@@ -45,7 +45,7 @@ function loginUserMessage1(username = "Guest"){       //here we gave default val
 console.log(loginUserMessage1())
 
 
-//When we don't know how much parameters will go into funciton then  we can use rest parameter  ...
+//When we don't know how much parameters will go into function then  we can use rest parameter  ...
 function calculateCartPrice(...num1){
     return num1
 }
