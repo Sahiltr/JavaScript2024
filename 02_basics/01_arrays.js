@@ -1,5 +1,4 @@
 //arrays
-
 const myArray = [0, 1, 2, 3, 4, 5, true, 'Sahil']             
 // console.log(myArray[7])
 
