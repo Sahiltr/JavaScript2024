@@ -11,14 +11,14 @@ let isLoggedIn = true  //boolean
 //number => 2^53
 //bigint
 //string => " "
-//boolena => true/false
+//boolean => true/false
 //null => standalone value
 //undefined => value not assigned yet
 //symbol =>unique
 
 
 //object
-console.log(typeof undefined);  //undefine
+console.log(typeof undefined);  //undefined
 console.log(typeof null);       //object
 
 

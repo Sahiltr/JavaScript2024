@@ -11,4 +11,4 @@ accountCity = "manali"
 // Prefer not to use var, because in block scope and functional scope
 
 console.table([accoundId, accountEmail, accountPassword, accountCity, accountState]);
-console.log(accoundId);
+console.log(typeof(accountCity));
